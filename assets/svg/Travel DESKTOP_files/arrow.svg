@@ -1,0 +1,55 @@
+<svg width="44" height="41" viewBox="0 0 44 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_60_35)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 20.5001C4.5 20.1686 4.6317 19.8507 4.86612 19.6162C5.10054 19.3818 5.41848 19.2501 5.75 19.2501H35.2325L27.365 11.3851C27.1303 11.1504 26.9984 10.8321 26.9984 10.5001C26.9984 10.1682 27.1303 9.84983 27.365 9.61511C27.5997 9.3804 27.9181 9.24854 28.25 9.24854C28.5819 9.24854 28.9003 9.3804 29.135 9.61511L39.135 19.6151C39.2514 19.7312 39.3438 19.8692 39.4068 20.021C39.4698 20.1729 39.5022 20.3357 39.5022 20.5001C39.5022 20.6645 39.4698 20.8273 39.4068 20.9792C39.3438 21.1311 39.2514 21.269 39.135 21.3851L29.135 31.3851C28.9003 31.6198 28.5819 31.7517 28.25 31.7517C27.9181 31.7517 27.5997 31.6198 27.365 31.3851C27.1303 31.1504 26.9984 30.8321 26.9984 30.5001C26.9984 30.1682 27.1303 29.8498 27.365 29.6151L35.2325 21.7501H5.75C5.41848 21.7501 5.10054 21.6184 4.86612 21.384C4.6317 21.1496 4.5 20.8316 4.5 20.5001Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_60_35" x="-2" y="0.5" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_60_35"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_60_35" result="shape"/>
+</filter>
+</defs>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
