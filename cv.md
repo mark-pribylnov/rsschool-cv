@@ -23,3 +23,12 @@ Eventually, I decided to become a software engineer for a number of reasons:
 - Remote work
 - Huge supportive community
 - It's a challenge. My previous job was outbound sales. One of the most stressful jobs for most people. Requires constant self-education. I got 50 to 100 rejections every day and had to convert them into sales. So, if I worked there, I can become a software engineer as well.
+
+### Skills
+
+- HTML
+- CSS
+- JavaScript and Python (both on a basic level)
+- Git
+- VS Code
+- Linux
