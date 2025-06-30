@@ -8,7 +8,7 @@
 **Discord server RS School:** Mark Pribylnov (@mark-pribylnov)  
 **Location**: Minsk, Belarus
 
-![Photo](./Photo.jpg)
+![Photo](./photo.png)
 
 ### About me
 
