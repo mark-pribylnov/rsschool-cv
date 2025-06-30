@@ -32,3 +32,35 @@ Eventually, I decided to become a software engineer for a number of reasons:
 - Git
 - VS Code
 - Linux
+
+### Code sample
+
+Description:
+_Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0._
+
+```
+function sum (numbers) {
+    let total = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        total += numbers[i];
+      };
+    return total;
+};
+```
+
+### Work Experience
+
+First simple project - [digital clock](https://github.com/mark-pribylnov/Digital-clock) with Python and GUI framework Tkinter
+
+### Education
+
+- [Minsk State Energy College](http://newmgek.unibel.by/)
+- Course on marketing [surgay.ru](https://surgay.ru/)
+- Course [Python for Everybody](https://www.py4e.com/)
+- [FreeCodeCamp](freecodecamp.org)
+
+### English level
+
+B1-B2  
+I watch most of movies without subtitles.  
+On the Internet I use English only.
